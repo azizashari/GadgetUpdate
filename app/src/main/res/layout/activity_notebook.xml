@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_notebook"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="azizashari.gadgetupdate.NotebookActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgr1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true">
+
+                <TextView
+                    android:text="NOTEBOOK"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView10"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="162dp"
+                    app:srcCompat="@drawable/acer"
+                    android:id="@+id/imageView4"
+                    android:layout_weight="0.07" />
+
+                <TextView
+                    android:text="Acer E5-553G-114Q"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView11"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="Acer E5-553G yang diotaki prosesor AMD A12 9700P. Layar yang diusung berukuran 15,6 inci. Masalah konektivitas, laptop ini dapat dibilang cukup lengkap, mulai dari USB type-C, VGA, ethernet, HDMI, 1 prot USB 2.0 ,2 port USB 3.0, dan slot microSD. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView12"
+                    android:layout_weight="0.08"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:text="Acer E5-553G ditenagai oleh RAM DDR4 8GB dan kartu grafis AMD Radeon R8 M445DX dengan VRAM 2GB. Tersedia juga penyimpanan harddisk sebesar 1 TB. Dengan spesifikasi tersebut Acer E5-553G menjadi notebook untuk gaming kelas menengah yang dapat diperhitungkan. Acer E5-553G dapat ditebus dengan harga Rp 8.500.000."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView13"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_credit"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="azizashari.gadgetupdate.CreditActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:animationCache="false"
+        android:background="@drawable/bgr1">
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:weightSum="1">
+
+            <TextView
+                android:text="ABOUT ME"
+                android:layout_marginBottom="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView10"
+                android:textSize="20sp"
+                android:textAlignment="center"
+                android:layout_marginTop="5dp"
+                android:textStyle="normal|bold" />
+
+            <ImageView
+                android:layout_width="match_parent"
+                android:layout_height="215dp"
+                app:srcCompat="@drawable/cropped"
+                android:id="@+id/imageView8" />
+
+            <TextView
+                android:text="Muhammad Aziz Ashari \n Computer Science \n Indonesia University of Education \n"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView12"
+                android:layout_weight="0.00"
+                android:textSize="18sp"
+                android:textStyle="normal|bold"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginTop="20dp"
+                android:textAlignment="center" />
+
+            <TextView
+                android:text="Image Resource:\n - Mi Note 2         : droidlime.com \n - Acer E5-553G : yangcanggih.com \n - Dji Mavic Pro  : yangcanggih.com \n - Zenwatch 3     : ulasharga.com \n - Xiaomi Yi 4K   : droidlime.com"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView13"
+                android:textSize="16sp"
+                android:textStyle="normal|bold"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="0dp"
+                android:inputType="textMultiLine"
+                android:layout_weight="0.02" />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_watch"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="azizashari.gadgetupdate.WatchActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgr1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true">
+
+                <TextView
+                    android:text="SMART WATCH"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView14"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="179dp"
+                    app:srcCompat="@drawable/zenwatch"
+                    android:id="@+id/imageView3" />
+
+                <TextView
+                    android:text="Asus Zenwatch 3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView15"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView16"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:text="Asus merilis smartwatch generasi terbarunya yaitu Zenwatch 3. yang telah dibekali konektivitas Wi-Fi dan Bluetooth yang bisa kita gunakan untuk pairing ke perangkat smartphone. Qualcomm Snapdragon Wear 2100, RAM 512MB, dan memori 4GB siap menunjang performanya. " />
+
+                <TextView
+                    android:text="Layar dari smart watch ini memiliki ukuran 1.39 inci dengan kerapatan layar mencapai 287 ppi. Zenwatch 3 juga memiliki kemampuan tahan air serta debu, karena sudah dilengkapi sertifikat IP67 yang membuatnya bisa berendam didalam air pada kedalaman maksimal 1 meter selama 30 menit. Harga swartwach ini yaitu Rp3.100.000."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView17"
+                    android:textSize="16sp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:textStyle="normal|bold" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

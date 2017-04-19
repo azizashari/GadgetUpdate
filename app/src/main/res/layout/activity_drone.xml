@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_drone"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="azizashari.gadgetupdate.DroneActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/bgr1">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+
+                <TextView
+                    android:text="DRONE"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:layout_marginTop="5dp"
+                    android:textStyle="normal|bold" />
+
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="160dp"
+                    app:srcCompat="@drawable/djimavicpro"
+                    android:id="@+id/imageView2"
+                    android:layout_weight="0.10" />
+
+                <TextView
+                    android:text="Dji Mavic Pro"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView7"
+                    android:textSize="20sp"
+                    android:textAlignment="center"
+                    android:textStyle="normal|bold" />
+
+                <TextView
+                    android:text="Dimensi dari Dji Mavic Pro terbilang ringkas dan lebih mudah dibawa ke mana saja. Drone ini mengandalkan 4 buah baling-baling yang dapat dilipat. Dengan mengandalkan 5 kamera, GPS dan GLONASS, 2 pengukur jarak ultrasonik, sejumlah sensor, dan diotaki CPU 24 core, Mavic Pro mampu terbang secara otomatis. "
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView8"
+                    android:layout_weight="0.08"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp" />
+
+                <TextView
+                    android:text="Dji Mavic Pro dibekali kamera beresolusi 12 MP yang dapat merekam video hingga beresolusi 4K. Drone ini dapat terbang sejauh 7Km dengan waktu terbang 27 menit. Di beberapa toko online Indonesia produk ini sudah bisa di pre-order dengan harga sekitar Rp15.000.000."
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:id="@+id/textView9"
+                    android:textSize="16sp"
+                    android:textStyle="normal|bold"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp" />
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>
